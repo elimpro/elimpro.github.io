@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <link rel="shortcut icon" href="./favicon.ico">
+   <title>Directory Contents</title>
+
+   <link rel="stylesheet" href="./style.css">
+   <script src="./sorttable.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("liste.html"); 
+    });
+    </script> 
+
+</head>
+<body>
+
+<div id="container">
+	<h1>Directory Contents</h1>
+
+	<table class="sortable">
+	    <thead>
+		<tr>
+			<th><center>Filename    /    Type</center></th>
+			 <!--  <th>Size</th>
+			<th>Date Modified</th> -->
+		</tr>
+	    </thead>
+	   <tbody>
+<tr class='$class'>
+    <td> <center><div id="includedContent"></div>
+     <a href='https://archive.org/details/zelanim' class='name'>Animation Techno</a></center></td>
+
+</tr>
+
+	    </tbody>
+	</table>
+
+	<h2> </h2>
+</div>
+</body>
+</html>		
