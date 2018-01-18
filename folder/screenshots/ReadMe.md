@@ -3,54 +3,22 @@ Imad El Hanafi
 
 # Part 1. Preliminaries
 
-We start first by importing all our auxiliary functions implemented in *EL-HanafiImad_functions.R* and all necessary libraries (I am using R version 3.2.3, this is why there is some warnings when we load the libraries but it has no impact on our code).
+We start first by importing all our auxiliary functions implemented in *EL-HanafiImad_functions.R* and all necessary libraries.
 
 
 
 ```r
 #Load libraries and the source for the functions
 library(MASS)
-```
-
-```
-## Warning: package 'MASS' was built under R version 3.2.5
-```
-
-```r
 library(abind)
-```
-
-```
-## Warning: package 'abind' was built under R version 3.2.5
-```
-
-```r
 library(mnormt)
-```
-
-```
-## Warning: package 'mnormt' was built under R version 3.2.5
-```
-
-```r
 library(LaplacesDemon)
-```
-
-```
-## Warning: package 'LaplacesDemon' was built under R version 3.2.5
-```
-
-```r
 library(coda)
-```
-
-```
-## Warning: package 'coda' was built under R version 3.2.5
-```
-
-```r
+#Load my functions
 source("EL-HanafiImad_functions.R")
+
 ```
+
 
 We recall the Gaussian mixture model defined on $\mathbb{R^d}$. The data $X = (X_1,...,X_N)$ is assumed i.i.d with density 
 $$
