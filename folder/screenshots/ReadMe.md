@@ -1,5 +1,4 @@
 #  LAB 2- Bayesian learning: GAUSSIAN MIXTURES 
-Imad El Hanafi  
 
 # Part 1. Preliminaries
 
